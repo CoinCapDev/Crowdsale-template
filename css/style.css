@@ -1,0 +1,115 @@
+.coin-trader {
+	color:#333;
+}
+
+.form-item {
+	margin-bottom:15px;
+}
+.form-item:last-child {
+	margin-bottom:0;
+}
+h4 {
+	font-weight: bold;
+}
+
+button.coin-button {
+	height:44px;
+}
+
+input.amount {
+	height:44px;
+
+}
+
+.dropdown-menu {
+	width:500px;
+	right:0;
+	left:auto;
+}
+
+.dropdown-menu li {
+	min-height:44px;
+}
+
+label {
+	color:#333;
+}
+
+.rate {
+	background:#f4f4f4;
+	padding:5px;
+	border-radius: 4px;
+}
+.rate label {margin:0;}
+
+.top h4 {
+	margin-bottom:0;
+	margin-top:5px;
+}
+
+.disabled {
+	opacity: .5;
+	pointer-events: none;
+}
+
+.amount-label {
+	border-right:0;
+	pointer-events: none;
+}
+
+.info {
+	text-align: center;
+}
+.info p {
+	margin-top:15px;
+}
+.progress {
+	width:200px;
+	margin:0 auto;
+}
+.success {
+	text-align: center;
+}
+.success .glyphicon {
+	font-size:150px;
+	color:#5cb85c;
+}
+.help-block {
+	font-size:12px;
+	color:#888;
+	margin-bottom:0;
+}
+.dropdown {
+	display: inline-block;
+}
+
+.btn-submit {
+	height:44px;
+}
+
+@media (max-width: 700px) {
+	.coin-selector .input-group-btn,
+	.coin-selector .input-group-btn .btn,
+	.coin-selector .input-group-addon, 
+	.coin-selector input.amount, 
+	.input-group {
+		display: block;
+		width:100%;
+		float:none;
+		margin-bottom:15px;
+	}
+	.coin-selector .input-group-btn .btn {
+		border-right:1px solid #ddd;
+	}
+	.coin-selector .input-group-addon {
+		border-left:1px solid #ddd;
+		border-radius: 4px;
+	}
+	.dropdown-menu {
+		width:auto;
+	}
+	.coin-selector .amount-label {
+		border-right:1px solid #ddd;
+		border-radius: 4px !important;
+	}
+}
