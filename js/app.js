@@ -79,7 +79,7 @@ app.controller('coinTrader', function($scope, $interval, ss){
 				var depositAddress = response.deposit;
 				if($scope.form.coinIn == 'BTC') {
 					$scope.deposit = response.deposit;
-					$scope.QRcode = $scope.deposit + "?amount=" + $scope.form.amount;
+					$scope.QRcode = "bitcoin:" + $scope.deposit + "?amount=" + $scope.form.amount;
 					$scope.progress = 50;
 					$scope.depositAmount = $scope.form.amount;
 					function getStats() {
